@@ -1,0 +1,95 @@
+/* Estilos globais */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    /* Cor de fundo padrão */
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #007bff;
+    /* Cor de fundo do cabeçalho */
+    color: #fff;
+    /* Cor do texto do cabeçalho */
+    padding: 20px 0;
+    /* Espaçamento interno do cabeçalho */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra do cabeçalho */
+}
+
+header h1 {
+    margin: 0;
+}
+
+.nav-link {
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+/* Corpo */
+main {
+    margin-top: 20px;
+}
+
+/* Seções */
+section {
+    background-color: #ffffff;
+    /* Cor de fundo das seções */
+    padding: 20px;
+    border: 1px solid #ddd;
+    /* Bordas leves */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    margin-bottom: 20px;
+    /* Espaçamento inferior entre seções */
+}
+
+section h2 {
+    color: #007bff;
+    /* Cor do título das seções */
+    margin-bottom: 15px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    /* Cor de fundo do rodapé */
+    color: #fff;
+    /* Cor do texto do rodapé */
+    padding: 15px 0;
+    text-align: center;
+    /* Centralização do texto */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+    /* Herdar a cor do texto */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Sublinhado ao passar o mouse */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+
+    header,
+    footer {
+        text-align: center;
+        /* Centraliza o texto no cabeçalho e rodapé em telas menores */
+    }
+
+    .nav {
+        flex-direction: column;
+        /* Menu vertical em telas menores */
+    }
+}
